@@ -11,7 +11,6 @@ def input_to_index(inp)
 end
 
 def position_taken?(arr, ind)
-  # ( arr[ind] == "" || arr[ind] == " " || arr[ind] == nil ) ? true : false
   arr[ind] == "" || arr[ind] == " " || arr[ind] == nil
 end
 
